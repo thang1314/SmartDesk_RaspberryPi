@@ -44,5 +44,6 @@ sudo apt-get install python-smbus
 sudo pip install python-socketio
 ```
 ### Paho-mqtt
+```
 pip install paho-mqtt
-
+```
