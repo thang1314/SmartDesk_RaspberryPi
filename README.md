@@ -2,6 +2,12 @@
 ## Introduce
 Project "SmartDesk_RaspberryPi" build an intelligent smart desk system using an IoT platform, incorporating microcontrollers Raspberry Pi and peripherals such as a camera, clock, light sensor, etc. 
 
+## Website interface
+![Getting Started](websiteInterface.png)
+
+## Hardware 
+![Getting Started](hardware.jpg)
+
 ## How it works
 This part is related to the hardware aspect.
 
