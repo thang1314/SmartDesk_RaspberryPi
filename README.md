@@ -1,6 +1,6 @@
-# SmartLearn_RaspberryPi
+# SmartLearning
 ## Introduce
-Project "SmartLearn_RaspberryPi" build an intelligent smart learn system using an IoT platform, incorporating microcontrollers Raspberry Pi and peripherals such as a camera, clock, light sensor, etc. 
+Project "SmartLearning" builds an intelligent smart learning system using an IoT platform, incorporating microcontrollers Raspberry Pi and peripherals such as a camera, clock, light sensor, etc. 
 
 ## Website interface
 ![Getting Started](websiteInterface.png)
@@ -13,7 +13,7 @@ This part is related to the hardware aspect.
 
 Raspberry Pi communicates with peripheral devices (RFID-RC522, TSL2561, Pi camera, LCD 16x2) and collects data from them.
 
-- Display real-time infomation: Display on LCD 16x2 through I2C communication.
+- Display real-time information: Display on LCD 16x2 through I2C communication.
 
 - Streaming: The Pi camera reads frames from the camera and then stores them as binary streams. It sends these streams to the server through a socket.io connection.
 
@@ -21,7 +21,7 @@ Raspberry Pi communicates with peripheral devices (RFID-RC522, TSL2561, Pi camer
 
 - Card scanning function: Utilizing RFID RC522 to connect to the microcontroller via SPI communication. The RC522 is employed for attendance tracking using RFID cards or tags. When a student wants to register their attendance, they can simply tap their RFID card or tag near the RC522 reader. The RC522 module, interfaced with Raspberry Pi, scans the card and reads its unique identification number.
 
-- All data collected from modules and sensors like RFID-RC522, TSL2561 is transmitted to the server through MQTT Broker.
+- All data collected from modules and sensors like RFID-RC522, and TSL2561 is transmitted to the server through MQTT Broker.
 
 ## Installation
 Before we start programming, we first need to update our Raspberry Pi to ensure it’s running the latest version of all the software. Run the following two commands on your Raspberry Pi to update it.
@@ -29,7 +29,7 @@ Before we start programming, we first need to update our Raspberry Pi to ensure 
 sudo apt update
 sudo apt upgrade
 ```
-Make sure the SPI, I2C interface and camera are enabled on your Raspberry Pi.
+Make sure the SPI, I2C interface, and camera are enabled on your Raspberry Pi.
 Remember to install the necessary libraries by running the following commands in your terminal if you haven't already done so:
 ### python3-dev, python-pip and  git packages
 ```
