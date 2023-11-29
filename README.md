@@ -1,6 +1,6 @@
-# SmartDesk_RaspberryPi
+# SmartLearn_RaspberryPi
 ## Introduce
-Project "SmartDesk_RaspberryPi" build an intelligent smart desk system using an IoT platform, incorporating microcontrollers Raspberry Pi and peripherals such as a camera, clock, light sensor, etc. 
+Project "SmartLearn_RaspberryPi" build an intelligent smart learn system using an IoT platform, incorporating microcontrollers Raspberry Pi and peripherals such as a camera, clock, light sensor, etc. 
 
 ## Website interface
 ![Getting Started](websiteInterface.png)
